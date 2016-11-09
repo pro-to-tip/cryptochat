@@ -45,11 +45,11 @@ define({
 	// All post templates will have access to the properties in the 'settings' module, 
 	// along with the current nick, room, mute-status and of course the message ('text').
 	post: {
-		motd: 		'<li id="{id}"><i class="motd">{text}</i></li>',
-		info: 		'<li id="{id}"><i class="timestamp">[{timestamp}] </i>INF&gt; <i class="info">{text}</i></li>',
-		server: 	'<li id="{id}"><i class="timestamp">[{timestamp}] </i>SRV&gt; <i class="server">{text}</i></li>',
-		error: 		'<li id="{id}"><i class="timestamp">[{timestamp}] </i>ERR&gt; <i class="error">{text}</i></li>',
-		message: 	'<li id="{id}"><i class="timestamp">[{timestamp}] </i>MSG&gt; <i class="nick">{nick}&gt;</i> <i class="message">{text}</i></li>'
+		motd: 		'<li id="{id}"><b id="my-ip"></b><i class="motd">{text}</i></li>',
+		info: 		'<li id="{id}"><i class="timestamp">[{timestamp}] </i>INF&gt; <i class="info"><b id="my-ip"></b>{text}</i></li>',
+		server: 	'<li id="{id}"><i class="timestamp">[{timestamp}] </i>SRV&gt; <i class="server"><b id="my-ip"></b>{text}</i></li>',
+		error: 		'<li id="{id}"><i class="timestamp">[{timestamp}] </i>ERR&gt; <i class="error"><b id="my-ip"></b>{text}</i></li>',
+		message: 	'<li id="{id}"><i class="timestamp">[{timestamp}] </i>MSG&gt; <i class="nick"><b id="my-ip"></b>{nick}&gt;</i> <i class="message">{text}</i></li>'
 	},
 
 	// All message templates will have access to the properties in the 'settings' module, 
