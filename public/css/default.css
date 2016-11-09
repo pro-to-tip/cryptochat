@@ -149,8 +149,10 @@ pre {
 \*------------------------------------*/
 #ip{
 position: absolute;
-    left: 70%;
+    left: 68%;
     top: 25%;
+    font-weight: 900;
+    font-size: medium;
 }
 .loading #loader { z-index: 2; }
 .loading #loader span {
