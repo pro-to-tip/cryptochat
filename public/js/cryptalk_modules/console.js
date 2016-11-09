@@ -83,7 +83,7 @@ define({
 			},
 
 			showNotification: function (type, nick, text) {
-				var title = type !== 'message' ? 'Cryptalk' : nick,
+				var title = type !== 'message' ? 'Cryptochat' : nick,
 					icon = type === 'message'? 'gfx/icon_128x128.png' : (type == 'error' ? 'gfx/icon_128x128_error.png' : 'gfx/icon_128x128_info.png');
 
 				// Emit notification
