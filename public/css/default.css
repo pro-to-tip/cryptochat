@@ -101,20 +101,18 @@ body, html {
 	bottom: 0;
 	width: 100%;
 	position: absolute;
-
 	border: 0;
 	outline: 0;
-
 	padding: 5px 5px 5px 15px;
-
 	color: rgba(144,134,251,0.97);
-	background-color:#fff;
 	height:40px;
 	border: 1.5px solid #e9eaf3;
         border-radius: 20px;
 }
 
-#input { z-index: 1; }
+#input { z-index: 1;    background: linear-gradient(to right, #ffffff 0%, transparent 50%);
+}
+ }
 #loader { z-index: 0; line-height: 20px; font-size: 14px; font-weight: 100; font-family: tahoma;}
 
 
