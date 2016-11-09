@@ -150,8 +150,9 @@ pre {
 	SPINNER
 \*------------------------------------*/
 #ip{
-float:right;
-padding: 4%;
+position: absolute;
+    left: 70%;
+    top: 25%;
 }
 .loading #loader { z-index: 2; }
 .loading #loader span {
