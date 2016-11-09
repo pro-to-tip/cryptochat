@@ -151,6 +151,7 @@ pre {
 \*------------------------------------*/
 #ip{
 float:right;
+padding: 4%;
 }
 .loading #loader { z-index: 2; }
 .loading #loader span {
