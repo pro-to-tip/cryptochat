@@ -73,7 +73,9 @@ body, html {
 /* Message types */
 /* the `i` element hold the actual message */
 #chat i {
-	font-style: normal;
+	font-style: normal;    color: #00DD00;
+    font-weight: 900;
+    font-size: 1.5em;
 }
 #chat i.motd	{ color: #99FF99; display:inline-block; line-height: 12px !important;width:100%; }
 #chat i.info	{ color: #999999; }
