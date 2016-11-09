@@ -149,6 +149,9 @@ pre {
 /*------------------------------------*\
 	SPINNER
 \*------------------------------------*/
+#ip{
+float:right;
+}
 .loading #loader { z-index: 2; }
 .loading #loader span {
 	margin-left:-2px;
